@@ -1,0 +1,28 @@
+nav li {
+    display: inline;
+    text-align: center;
+}
+
+nav li+li::before {
+    content: '> ';
+}
+
+a {
+    color: #F0F5F9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C9D6DF;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+a:active::after {
+    content: '✅'
+}
+
+a:active {
+    color: #F0F5F9;
+}
+
